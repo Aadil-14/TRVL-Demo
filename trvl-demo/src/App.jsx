@@ -58,7 +58,128 @@ const mockTours = [
     activityLevel: "Challenging",
     inclusions: "Permits, Guide/Porters, Basic Lodge Accommodation, All Meals during trek",
     itinerary: []
+  },
+  {
+    id: 4,
+    name: "South African Safari Adventure",
+    destination: "Kruger National Park & Cape Town",
+    price: 3200.00,
+    duration: 9,
+    description: "An incredible journey combining thrilling wildlife viewing in Kruger with the breathtaking cityscapes and Winelands of Cape Town.",
+    availableDates: "Aug 2026 - Nov 2026",
+    activityLevel: "Moderate",
+    inclusions: "Internal Flights, Safari Game Drives, Luxury Lodge Stays",
+    itinerary: [
+      { day: "Day 1-4", details: "Safari drives in Kruger, Big Five spotting." },
+      { day: "Day 5-9", details: "Fly to Cape Town, Table Mountain, Winelands tour." }
+    ]
+  },
+  {
+    id: 5,
+    name: "Patagonia Glacier Cruise",
+    destination: "Tierra del Fuego, Argentina & Chile",
+    price: 4100.00,
+    duration: 12,
+    description: "Explore the rugged, beautiful end of the world with a cruise through the majestic fjords and past towering glaciers of Patagonia.",
+    availableDates: "Dec 2026 - Feb 2027",
+    activityLevel: "Easy",
+    inclusions: "10-day Expedition Cruise, All Meals, Shore Excursions",
+    itinerary: [
+      { day: "Day 1-2", details: "Ushuaia arrival and boarding the cruise." },
+      { day: "Day 3-9", details: "Cruising fjords, sighting Pia Glacier, Cape Horn." },
+      { day: "Day 10-12", details: "Disembark and explore Punta Arenas, Chile." }
+    ]
+  },
+  {
+    id: 6,
+    name: "Ancient Egypt Nile Cruise",
+    destination: "Cairo, Luxor & Aswan",
+    price: 1950.00,
+    duration: 8,
+    description: "Step back in time on a luxury cruise down the Nile River, visiting the Pyramids, temples of Karnak, and Valley of the Kings.",
+    availableDates: "All Year",
+    activityLevel: "Easy",
+    inclusions: "4-day Nile Cruise, Guided Tours, Domestic Flight (Cairo to Luxor)",
+    itinerary: [
+      { day: "Day 1-2", details: "Arrival in Cairo, Pyramids of Giza, Egyptian Museum." },
+      { day: "Day 3-6", details: "Fly to Luxor, Nile Cruise, visiting Karnak and Edfu Temples." },
+      { day: "Day 7-8", details: "Aswan sights, return to Cairo and departure." }
+    ]
+  },
+  // ------------------ SIX NEW TOURS ADDED (IDs 7-12) ------------------
+  {
+    id: 7,
+    name: "Japan Culture & Rail Tour",
+    destination: "Tokyo, Kyoto & Osaka",
+    price: 2800.00,
+    duration: 12,
+    description: "A fast-paced journey across Japan using the bullet train, covering ancient temples, vibrant neon cities, and culinary hotspots.",
+    availableDates: "Apr 2026, Oct 2026",
+    activityLevel: "Moderate",
+    inclusions: "Japan Rail Pass, All Accommodation, Guided Temple Visits",
+    itinerary: []
+  },
+  {
+    id: 8,
+    name: "Great Barrier Reef Dive",
+    destination: "Cairns, Australia",
+    price: 1350.00,
+    duration: 5,
+    description: "Focused trip on the world's largest coral reef system, perfect for certified divers and snorkelers alike.",
+    availableDates: "Jun 2026 - Sept 2026",
+    activityLevel: "Easy",
+    inclusions: "Dive Boat Charters, Gear Rental, PADI Divemaster Guide",
+    itinerary: []
+  },
+  {
+    id: 9,
+    name: "Inca Trail to Machu Picchu",
+    destination: "Cusco, Peru",
+    price: 1680.00,
+    duration: 7,
+    description: "A classic, challenging trek ending at the magnificent Lost City of the Incas. Requires permits booked well in advance.",
+    availableDates: "May 2026 - Sept 2026",
+    activityLevel: "Challenging",
+    inclusions: "Trekking Permits, Porter Service, Camp Gear, Entrance Fees",
+    itinerary: []
+  },
+  {
+    id: 10,
+    name: "Alaskan Wildlife Explorer",
+    destination: "Anchorage & Denali",
+    price: 3800.00,
+    duration: 10,
+    description: "Witness the vast, untouched wilderness of Alaska. Ideal for viewing moose, grizzly bears, and Mount Denali.",
+    availableDates: "July 2026 - Aug 2026",
+    activityLevel: "Moderate",
+    inclusions: "Wildlife Safaris, National Park Fees, Rail Journey",
+    itinerary: []
+  },
+  {
+    id: 11,
+    name: "Canadian Rockies Road Trip",
+    destination: "Banff, Jasper & Lake Louise",
+    price: 2100.00,
+    duration: 8,
+    description: "Self-driven tour through the stunning landscapes of the Canadian Rockies, featuring turquoise lakes and towering peaks.",
+    availableDates: "June 2026 - Sept 2026",
+    activityLevel: "Easy",
+    inclusions: "Car Rental (SUV), 4-star Hotel Stays, Park Passes",
+    itinerary: []
+  },
+  {
+    id: 12,
+    name: "Historical Istanbul & Cappadocia",
+    destination: "Turkey",
+    price: 1550.00,
+    duration: 7,
+    description: "A blend of historical Byzantine and Ottoman splendor in Istanbul with the unique cave architecture and hot air balloons of Cappadocia.",
+    availableDates: "Apr 2026, Sept 2026",
+    activityLevel: "Easy",
+    inclusions: "Internal Flights, Hot Air Balloon Ride, Guided City Tours",
+    itinerary: []
   }
+  
 ];
 
 let mockBookings = {};
