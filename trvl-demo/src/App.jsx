@@ -340,7 +340,7 @@ const NavbarComponent = ({ navigate }) => {
  */
 const TourCardComponent = ({ tour, navigate }) => {
   const fallbackImg = `https://placehold.co/400x250/3b82f6/ffffff?text=${tour.destination.split(',')[0]}`;
-  const { id, name = 'Untitled Tour', destination = 'Unknown', price = 0, duration = 1 } = tour;
+  const { id, name ='Mystery Tour', destination = 'Unknown', price = 0, duration = 1 } = tour;
 
   return (
     <div className="h-full rounded-xl shadow-xl overflow-hidden cursor-pointer bg-white hover:shadow-2xl transform hover:scale-[1.03] transition duration-300 border border-gray-100 flex flex-col">
